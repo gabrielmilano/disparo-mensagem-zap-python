@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 # Carrega a planilha
-df = pd.read_excel('data/clientes.xlsx')
+df = pd.read_excel('data/TesteClientes.xlsx')
 
 # Caminho do arquivo de log
 log_path = 'envio_log.txt'
